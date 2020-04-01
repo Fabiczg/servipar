@@ -1,0 +1,75 @@
+@media screen and (min-width: 0px) and (max-width: 767px) {
+
+.porta{
+	display: block;
+}
+
+.portfolio-link img{
+	width: 100%;
+	height: auto!important;
+}
+
+.responsive-menu-btn > svg.open {
+
+    fill: #b7322a;
+    }
+
+    .button {
+
+    top:35%;
+}
+
+h1 {
+    font-size: 30px;
+}
+
+h2 {
+    font-size: 25px!important;
+}
+
+.page-section h2.section-heading {
+    font-size: 30px;
+    }
+
+    h4 {
+    font-size: 20px;
+}
+
+.timeline>li .timeline-image h4 {
+    font-size: 8px;
+    }
+
+    .contact-form {
+    height: 115vh;
+}
+
+.responsive-menu-btn > svg.close {
+
+    fill: #da3529;}
+
+    .nav-item a {
+    color: black;
+}
+
+
+}
+
+
+
+@media screen and (min-width: 768px) and (max-width: 1024px){
+	.porta{
+	display: block;
+}
+
+.portfolio-link img{
+	width: 100%;
+	height: auto!important;
+}
+}
+
+
+
+@media screen and (min-width: 1024px) and (max-width: 1366px) {
+
+
+}

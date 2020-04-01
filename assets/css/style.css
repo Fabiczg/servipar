@@ -1,0 +1,331 @@
+
+
+
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+  background-color: #fff !important;
+}
+
+::-webkit-scrollbar-thumb {
+  border-radius: 5px;
+  background: #da3529;
+}
+
+.active a{
+  color:  #da3529!important;
+}
+
+html{
+  scroll-behavior: smooth;
+}
+.banner_part{
+  position: relative;
+}
+.item-banner{
+  position: relative;
+}
+
+.item-banner img{
+      width: 100%;
+    height: 85vh;
+    object-fit: cover;
+}
+
+button:focus {
+    outline: none!important;
+}
+
+.text-banner{
+position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 99;
+    right: 0;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    background: rgba(0, 0, 0, 0.168627);
+    padding: 50px;
+    text-align: center;
+}
+
+.contact-form{
+  position: relative;
+  height: 100vh;
+}
+
+.list-inline-item{
+  font-weight: bold;
+}
+
+.copyright{
+  font-weight: bold;
+}
+
+.form-control {
+
+    background-color: #b9322a00;
+    }
+
+.mask{
+position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 99;
+    right: 0;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    background: rgba(0, 0, 0, 0.51);
+    text-align: center;
+}
+
+.button{
+  position: absolute;
+    top: 0;
+    bottom: -30%;
+    left: 0;
+    z-index: 99;
+    right: 0;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    padding: 50px;
+    text-align: center;
+}
+
+.img-fluid {
+    max-width: 100%;
+    height: 100%!important;
+    object-fit: cover!important;
+}
+
+.button:focus {
+  outline: none;
+  box-shadow: none;
+}
+
+.text-primary{
+  color:#b9322a!important;
+}
+
+.text-banner h1{
+      color: #ffffff;
+}
+
+.porta{
+  display: flex;
+    justify-content: space-between;
+}
+
+.portfolio-link img{
+height: 20vh!important;
+    /* width: 100%; */
+    object-fit: cover!important;
+}
+.text-banner h2{
+      color: #ffffff;
+}
+
+.fixed-me{
+  background: black!important;
+}
+
+.contact{
+  color: #fff;
+    background: #b9322a;
+    padding: 10px 20px;
+    font-weight: bold;
+    border: none;
+    transition: .5s;
+    font-size: 15px;
+}
+
+.contact:hover{
+  transition: .5s;
+ background:#4a4a4a;
+
+}
+
+
+
+.nav-color-change{
+  color: black!important;
+}
+
+.nav-color-change a:hover{
+  color:#da3529!important;
+}
+
+.slick-next, .slick-prev{
+  display: none!important;
+}
+
+
+.header__main {
+  display: flex;
+  padding: 3rem;
+  align-items: center;
+  height: 80px;
+  position: fixed;
+  z-index: 999;
+    width: 100%;
+      transition: .5s;
+}
+
+
+
+.fixed-me {
+  background:#fff!important;
+  transition: .5s; }
+
+.nav-item {
+  position: relative;
+  color: white;
+  font-size: 18px;
+    font-weight: 800;
+    padding: 1rem;
+      display: flex;
+    justify-content: center;
+    align-items: center; }
+  .nav-item a {
+    color: #fff;
+    text-decoration: none;
+    -webkit-transition: 0.2s all linear;
+    transition: 0.2s all linear;
+  }
+    .nav-item a:hover{
+    color: #da3529;
+    text-decoration: none;
+    -webkit-transition: 0.2s all linear;
+    transition: 0.2s all linear;
+  }
+
+.responsive-menu-btn {
+    width: 100px;
+    overflow: hidden;
+    height: 100px;
+  margin-left: auto;
+  cursor: pointer;
+  border: none;
+  background: none;
+  outline: none;
+  position: relative;
+    z-index: 99; }
+  .responsive-menu-btn svg {
+    position: absolute;
+        left: 30px;
+    top: 29%; }
+    .responsive-menu-btn svg.open {
+      visibility: visible;
+      animation: XrotateScaleFadeInReverse 0.37s ease forwards; }
+    .responsive-menu-btn svg.close {
+      visibility: hidden;
+      animation: XrotateScaleFadeOut 0.37s ease forwards; }
+  .responsive-menu-btn > svg.open {
+        width: 100px;
+    height: 55px;
+      fill:#dedf2b;
+ }
+  .responsive-menu-btn > svg.close {
+    position: relative;
+    top: 3px;
+    width: 22px;
+        left: 0;
+
+    height: auto;
+    fill: #dedf2b; }
+  .responsive-menu-btn.--is-open svg.close {
+    visibility: visible;
+    animation: XrotateScaleFadeIn 0.37s ease forwards;
+ }
+  .responsive-menu-btn.--is-open svg.open {
+    visibility: hidden;
+    animation: XrotateScaleFadeOut 0.37s ease forwards;
+   }
+
+@media (min-width: 700px) {
+  .responsive-menu-btn {
+    display: none; } }
+.nav__menu {
+     position: fixed;
+    display: flex;
+    flex-direction: column;
+    top: 0;
+    background: #fff;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    justify-content: center;
+    transform: translate(-100%, 0);
+    transition: transform 0.2s linear;}
+  .nav__menu.--is-open {
+    transform: translate(0, 0); }
+  .nav__menu > a {
+    text-transform: uppercase;
+    padding: 2rem;
+    text-decoration: none;
+    color: white;
+    font-size: 15px; }
+
+@media (min-width: 700px) {
+  .nav__menu {
+    display: flex;
+    flex-direction: row;
+    background: none;
+    border-right: none;
+    position: static;
+    margin-left: auto;
+    justify-content: flex-end;
+    height: auto;
+    transform: translate(0, 0); }
+    .nav__menu.--is-open {
+      display: flex; } }
+.page-wrapper {
+  min-height: 100vh; }
+  .page-wrapper:nth-child(1) {
+    background: white; }
+  .page-wrapper:nth-child(2) {
+    background: #f2f2f2; }
+
+@keyframes XrotateScaleFadeIn {
+  0% {
+    opacity: 0;
+    transform: rotate(360deg) scale(0); }
+  55% {
+    opacity: 0.35;
+    transform: rotate(360deg) scale(0.5); }
+  100% {
+    opacity: 1;
+    transform: rotate(0deg) scale(1); } }
+@keyframes XrotateScaleFadeInReverse {
+  0% {
+    opacity: 0;
+    transform: rotate(-360deg) scale(0); }
+  55% {
+    opacity: 0.35;
+    transform: rotate(-360deg) scale(0.5); }
+  100% {
+    opacity: 1;
+    transform: rotate(0deg) scale(1); } }
+@keyframes XrotateScaleFadeOut {
+  0% {
+    opacity: 1;
+    transform: rotate(0deg) scale(1); }
+  55% {
+    opacity: 0.35;
+    transform: rotate(360deg) scale(0.5); }
+  100% {
+    opacity: 0;
+    transform: rotate(360deg) scale(0); } }
+    .vw-sirat-aboutus-title {
+    border-left: 5px solid #ff8f1c;
+    padding: 0px 15px;
+    margin-bottom: 40px;
+}
